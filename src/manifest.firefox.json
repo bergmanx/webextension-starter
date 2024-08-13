@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Example Firefox",
+  "version": "1.0.0",
+  "description": "Test Vite Plugin Extension with Preact",
+  "browser_action": {
+    "default_popup": "src/popup/popup.html"
+  }
+}

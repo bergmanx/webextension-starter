@@ -1,0 +1,34 @@
+{
+    "name": "webextension-starter",
+    "description": "A starter template project for web extensions with Vite and Preact",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "TEMPLATE=true vite",
+        "dev:chrome": "TARGET=chrome TEMPLATE=true vite",
+        "dev:firefox": "TARGET=firefox TEMPLATE=true vite",
+        "dev:manifest:chrome": "TARGET=chrome vite",
+        "dev:manifest:firefox": "TARGET=firefox vite",
+        "build": "TEMPLATE=true vite build",
+        "build:chrome": "TARGET=chrome TEMPLATE=true vite build",
+        "build:firefox": "TARGET=firefox TEMPLATE=true vite build",
+        "build:manifest:chrome": "TARGET=chrome vite build",
+        "build:manifest:firefox": "TARGET=firefox vite build",
+        "watch": "TEMPLATE=true vite build --watch --mode development",
+        "watch:chrome": "TARGET=chrome TEMPLATE=true vite build --watch --mode development",
+        "watch:firefox": "TARGET=firefox TEMPLATE=true vite build --watch --mode development",
+        "watch:manifest:chrome": "TARGET=chrome vite build --watch --mode development",
+        "watch:manifest:firefox": "TARGET=firefox vite build --watch --mode development"
+    },
+    "dependencies": {
+        "preact": "^10.23.1"
+    },
+    "devDependencies": {
+        "@preact/preset-vite": "^2.9.0",
+        "vite": "^5.4.0",
+        "vite-plugin-web-extension": "^4.1.6",
+        "vite-plugin-zip-pack": "^1.2.3",
+        "webextension-polyfill": "^0.12.0"
+    }
+}
