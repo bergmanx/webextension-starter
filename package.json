@@ -1,8 +1,14 @@
 {
     "name": "webextension-starter",
     "description": "A starter template project for web extensions with Vite and Preact",
-    "private": true,
-    "version": "0.0.0",
+    "keywords": ["web", "extension", "vite", "preact", "template", "starter", "firefox", "chrome"],
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": {
+      "name": "Bergman",
+      "email": "bergman.webdev@gmail.com",
+      "url": "https://bergmanx.github.io/"
+    },
     "type": "module",
     "scripts": {
         "dev": "TEMPLATE=true vite",
